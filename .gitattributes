@@ -26,3 +26,21 @@ class Car{
 	}
 	
 }
+
+
+
+# add light task on and off
+
+class LightSwitch{
+	public boolean lightsOn;
+	
+	
+	public void printInfo() {
+		if(lightsOn) {
+			System.out.println("Lights are on");
+		}else {
+			System.out.println("Lights are off");
+		}
+	}
+	
+}
